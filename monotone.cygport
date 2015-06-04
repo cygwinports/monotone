@@ -1,6 +1,6 @@
 NAME="monotone"
 VERSION=1.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="Distributed version control system"
 DESCRIPTION="monotone is a free distributed version control system. It provides
