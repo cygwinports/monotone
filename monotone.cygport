@@ -1,6 +1,6 @@
 NAME="monotone"
 VERSION=1.1
-RELEASE=4
+RELEASE=5
 CATEGORY="Devel"
 SUMMARY="Distributed version control system"
 DESCRIPTION="monotone is a free distributed version control system. It provides
@@ -11,3 +11,7 @@ review and 3rd party testing. It uses cryptographic version naming and client-
 side RSA certificates."
 HOMEPAGE="http://www.monotone.ca/"
 SRC_URI="http://www.monotone.ca/downloads/${VERSION}/${NAME}-${VERSION}.tar.bz2"
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/rpms/monotone.git/plain/monotone-1.1-lua-integer.patch
+	1.1-ftm.patch
+"

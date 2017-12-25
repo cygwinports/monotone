@@ -1,0 +1,20 @@
+--- origsrc/monotone-1.1/src/rcs_import.cc	2014-05-04 04:15:17.000000000 -0500
++++ src/monotone-1.1/src/rcs_import.cc	2017-12-24 22:49:37.249602300 -0600
+@@ -7,6 +7,7 @@
+ // implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ // PURPOSE.
+ 
++#define _XOPEN_SOURCE
+ #include "base.hh"
+ #include <algorithm>
+ #include <iterator>
+--- origsrc/monotone-1.1/src/unix/parse_date.cc	2014-05-04 04:15:18.000000000 -0500
++++ src/monotone-1.1/src/unix/parse_date.cc	2017-12-24 22:40:26.446874300 -0600
+@@ -7,6 +7,7 @@
+ // implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ // PURPOSE.
+ 
++#define _XOPEN_SOURCE
+ #include "../base.hh"
+ #include "../sanity.hh"
+ #include "../origin_type.hh"
